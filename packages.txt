@@ -1,1 +1,4 @@
 default-jre-headless
+scikit-learn
+pandas
+pickle

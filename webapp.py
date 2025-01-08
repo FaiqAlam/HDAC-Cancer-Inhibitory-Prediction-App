@@ -11,7 +11,7 @@ st.title('HDAC Bioactivity Prediction App - 💊')
 st.info('This webapp is used to predict the pIC50 values of compounds to get the bioactiity of the compounds with respect to their inhibitory characteristics against HDAC.')
 
 #defining the tabs that will be present just above the webapp
-tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8 = st.tabs(['Main','About','What is Human Histone Deacetylase (HDAC)?','Dataset','Model Performance', 'Python Libraries', 'Citing Us', 'Application Developers'])
+tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8 = st.tabs(['Main','About','What is Human Histone Deacetylase (HDAC)?','Dataset','Model Performance', 'Python Libraries', 'Citing Us', 'Application Developer'])
 
 with tab1:
     st.title('Application Working and Description')
