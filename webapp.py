@@ -5,7 +5,6 @@ import subprocess
 import base64
 import os
 import pickle
-import sklearn
 
 
 st.title('HDAC Bioactivity Prediction App - 💊')
