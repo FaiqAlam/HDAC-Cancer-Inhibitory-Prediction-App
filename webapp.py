@@ -5,7 +5,7 @@ import subprocess
 import base64
 import os
 import pickle
-
+import sklearn
 
 st.title('HDAC Bioactivity Prediction App - 💊')
 st.info('This webapp is used to predict the pIC50 values of compounds to get the bioactiity of the compounds with respect to their inhibitory characteristics against HDAC.')
