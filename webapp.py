@@ -18,7 +18,7 @@ with tab1:
     st.success('This module of [**HDAC-Pred**] has been built to predict bioactivity and identify potent inhibitors against Human Histone Deacetylase using robust machine learning algorithms.')
     
     st.markdown('''Contributors:\n
-    Faiq Alam [Computer Engineering, Aligarh Muslim Universiry] - Worked on computational design, machine learning modeling, and bioactivity prediction.\n
+    Faiq Alam [Aligarh Muslim Universiry] - Worked on computational design, machine learning modeling, and bioactivity prediction.\n
     Amber Rizwan and Humaira Farooqi: Focused on experimental validation and laboratory testing of the compounds at the[Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard].
     ''')
 
@@ -60,7 +60,7 @@ with tab7:
     st.write('In the process of publishing')
 
 with tab8:
-    st.markdown('''Faiq Alam (Computer Engineering, Aligarh Muslim University) - Application Development and Machine Learning Prediction
+    st.markdown('''Faiq Alam [Computer Engineering, Aligarh Muslim University] - Application Development and Machine Learning Prediction.
     Amber Rizwan, Humaira Farooqi. [***Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard***]
                 ''')
 
