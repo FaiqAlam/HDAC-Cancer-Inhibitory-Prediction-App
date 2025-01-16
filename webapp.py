@@ -17,10 +17,7 @@ with tab1:
     st.title('Application Working and Description')
     st.success('This module of [**HDAC-Pred**] has been built to predict bioactivity and identify potent inhibitors against Human Histone Deacetylase using robust machine learning algorithms.')
     
-    st.markdown('''Contributors:\n
-    Faiq Alam [Aligarh Muslim Universiry] - Worked on computational design, machine learning modeling, and bioactivity prediction.\n
-    Amber Rizwan and Humaira Farooqi: Focused on experimental validation and laboratory testing of the compounds at the[Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard].
-    ''')
+    st.success("Contributors: Faiq Alam[Computer Engineering, Aligarh Muslim Universiry], Amber Rizwan and Humaira Farooqi[Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard]")
 
 with tab2:
     st.title('About the Process')
@@ -42,7 +39,7 @@ with tab4:
 
 with tab5:
     st.header('Model Performance')
-    st.write("We selected a total of 3 different molecular signatures namely pubchem fingerprints, substructure fingerprints, and 1D 2D molecular descriptors to build the web application. The correlation coefficient, RMSE, and MAE values for the pubchem fingerprint model was found to be 0.9756, 0.2963, and 0.2254. The correlation coefficient, RMSE, and MAE values for the substructure fingerprint model was found to be 0.9599, 0.3239, and 0.2531. The correlation coefficient, RMSE, and MAE values for the 1D and 2D molecular descriptor model was found to be 0.982, 0.296, and 0.2282")
+    st.write("We selected a total of 3 different molecular signatures namely pubchem fingerprints, substructure fingerprints, and 1D 2D molecular descriptors to build the web application. The correlation coefficient, RMSE, and MAE values for the pubchem fingerprint model was found to be 0.950, 0.426, and 0.285. The correlation coefficient, RMSE, and MAE values for the substructure fingerprint model was found to be 0.822, 0.744, and 0.538. The correlation coefficient, RMSE, and MAE values for the 1D and 2D molecular descriptor model was found to be 0.979, 0.321, and 0.235")
 
 with tab6:
     st.title("Python Libraries Used in the App")
@@ -60,9 +57,8 @@ with tab7:
     st.write('In the process of publishing')
 
 with tab8:
-    st.markdown('''Faiq Alam [Computer Engineering, Aligarh Muslim University] - Application Development and Machine Learning Prediction.
-    Amber Rizwan, Humaira Farooqi. [***Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard***]
-                ''')
+    st.markdown('''Faiq Alam [Computer Engineering, Aligarh Muslim University], Amber Rizwan and Humaira Farooqi. [***Lab no. 219, Phytomedicine and Cancer Biology Lab, Department of Biotechnology, SCLS, Jamia Hamdard***]
+    ''')
 
 
 
